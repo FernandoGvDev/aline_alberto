@@ -23,7 +23,7 @@ export default function Projetos() {
 
           {/* MINIATURAS GRANDE NA ESQUERDA */}
           <div className="hidden md:flex flex-col gap-6 absolute left-0 top-1/2 -translate-y-1/2">
-            {images.slice(1, 4).map((img, i) => (
+            {images.slice(1, 4).map((img) => (
               <motion.img
                 key={img}
                 src={img}
